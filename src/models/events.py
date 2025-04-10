@@ -14,10 +14,12 @@ class Event(BaseModel):
             "example" :{
                 "id": 1,
                 "title": "아.. 강의하기 싫다",
-                "image": "path/to"
+                "image": "path/to",
                 "description": "아 진짜 하기싫다...",
                 "tags" : ["#귀차니즘", "#강의"],
-                "location": "서울"
+                "location": "서울",
+                "created_at": "2023-10-01T00:00:00Z"
             }
         }
     )
+
